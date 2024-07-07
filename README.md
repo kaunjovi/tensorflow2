@@ -34,3 +34,22 @@ kaunjovi@devbook tensorflow2 % codium .
 ```
 
 1. Happy coding. 
+
+## [Setting up for TensorFlow2](https://www.tensorflow.org/install)
+
+### Pre Requisites 
+
+1. Python 3.8–3.11
+
+## Which python do we have 
+
+```
+kaunjovi@devbook tensorflow2 % python3 --version 
+Python 3.12.3
+```
+
+1. We have 3.12. TensorFlow2 needs no more than 3.11. 
+1. Check [python downloads](https://www.python.org/downloads/). 
+1. Python 3.11.9 April 2, 2024 seems ok. 
+1. That can work only on for macOS 10.9 and later. We have 14.4. So, go ahead and install. 
+
