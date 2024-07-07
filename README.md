@@ -52,4 +52,19 @@ Python 3.12.3
 1. Check [python downloads](https://www.python.org/downloads/). 
 1. Python 3.11.9 April 2, 2024 seems ok. 
 1. That can work only on for macOS 10.9 and later. We have 14.4. So, go ahead and install. 
+1. Post this install check python version again. 
+
+```
+kaunjovi@devbook tensorflow2 % ls -lart 
+total 8
+drwxr-xr-x   6 kaunjovi  staff   192 Jul  7 15:55 ..
+drwxr-xr-x   4 kaunjovi  staff   128 Jul  7 15:55 .
+-rw-r--r--   1 kaunjovi  staff  1567 Jul  7 16:18 README.md
+drwxr-xr-x  15 kaunjovi  staff   480 Jul  7 16:18 .git
+kaunjovi@devbook tensorflow2 % python3 --version 
+Python 3.11.9
+```
+
+
+
 
