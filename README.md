@@ -19,8 +19,8 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
 ```
 
-- Peek into the folder and check if README.md is there. 
-- Open the folder in your favorite editor. 
+1. Peek into the folder and check if README.md is there. 
+1. Open the folder in your favorite editor. 
 
 ```
 kaunjovi@devbook code % cd tensorflow2
@@ -33,4 +33,4 @@ drwxr-xr-x  12 kaunjovi  staff  384 Jul  7 15:55 .git
 kaunjovi@devbook tensorflow2 % codium .
 ```
 
-- Happy coding. 
+1. Happy coding. 
