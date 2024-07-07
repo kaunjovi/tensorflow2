@@ -65,6 +65,76 @@ kaunjovi@devbook tensorflow2 % python3 --version
 Python 3.11.9
 ```
 
+## Create a virtual environment with these requirements
+
+1. Create a venv called .venv 
+1. Check if the new folder was indeed made. 
+
+```
+kaunjovi@devbook tensorflow2 % python3 -m venv .venv
+kaunjovi@devbook tensorflow2 % ls -lart 
+total 8
+drwxr-xr-x   6 kaunjovi  staff   192 Jul  7 15:55 ..
+-rw-r--r--   1 kaunjovi  staff  1962 Jul  7 16:26 README.md
+drwxr-xr-x  15 kaunjovi  staff   480 Jul  7 16:27 .git
+drwxr-xr-x   5 kaunjovi  staff   160 Jul  7 16:34 .
+drwxr-xr-x   6 kaunjovi  staff   192 Jul  7 16:34 .venv
+```
+
+1. Activate it 
+1. Check if python3 is being picked from the local folder 
+
+```
+kaunjovi@devbook tensorflow2 % source .venv/bin/activate
+
+(.venv) kaunjovi@devbook tensorflow2 % which python3 
+/Users/kaunjovi/code/tensorflow2/.venv/bin/python3
+```
+
+1. Install pip so you can install other stuff. 
+
+```
+(.venv) kaunjovi@devbook tensorflow2 % pip install --upgrade pip
+Requirement already satisfied: pip in ./.venv/lib/python3.11/site-packages (24.0)
+Collecting pip
+  Downloading pip-24.1.1-py3-none-any.whl.metadata (3.6 kB)
+Downloading pip-24.1.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 2.4 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-24.1.1
+
+(.venv) kaunjovi@devbook tensorflow2 % where pip 
+/Users/kaunjovi/code/tensorflow2/.venv/bin/pip
+```
+
+1. Install TensorFlow2
+2. Don't forget to create .gitignore before this and add /.venv to it 
+
+```
+(.venv) kaunjovi@devbook tensorflow2 % pip install tensorflow
+A lot of downloads 
+A lot of files will show up in your .venv folder. 
+```
+
+
+
+## TensorFlow 
+
+- TensorFlow makes it easy to create ML models that can run in any environment. 
+
+- Install TensorFlow 2 
+- Python 3.8–3.11 - we have Python 3.12.3
+- macOS 10.12.6 (Sierra) or later (no GPU support) - we have Sonoma 14.4
+
+```
+pip install --upgrade pip
+pip install tensorflow
+```
+
 
 
 
