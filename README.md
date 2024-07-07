@@ -3,11 +3,11 @@ TensorFlow2
 
 ## Get started. 
 
-1 Create a new folder in the git repository of your choice. 
-1 Initialized it with README.md. 
-1 Open your dev box. Open your terminal. 
-1 Go to whichever location you want your code folders to be in. 
-1 Cone the online git folder to your dev box. 
+1. Create a new folder in the git repository of your choice. 
+1. Initialized it with README.md. 
+1. Open your dev box. Open your terminal. 
+1. Go to whichever location you want your code folders to be in. 
+1. Cone the online git folder to your dev box. 
 
 ```
 kaunjovi@devbook ~ % cd code 
